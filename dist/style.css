@@ -1,0 +1,48 @@
+@font-face {
+  font-display: swap;
+  font-family: 'OpenSans';
+  src: url("fonts/OpenSans-Regular.eot");
+  src: local("OpenSans"), local("OpenSans-Regular"), url("fonts/OpenSans-Regular.eot?#iefix") format("embedded-opentype"), url("fonts/OpenSans-Regular.woff") format("woff"), url("fonts/OpenSans-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-display: swap;
+  font-family: 'OpenSans';
+  src: url("fonts/OpenSans-SemiBold.eot");
+  src: local("OpenSans SemiBold"), local("OpenSans-SemiBold"), url("fonts/OpenSans-SemiBold.eot?#iefix") format("embedded-opentype"), url("fonts/OpenSans-SemiBold.woff") format("woff"), url("fonts/OpenSans-SemiBold.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal; }
+
+@font-face {
+  font-display: swap;
+  font-family: 'OpenSans';
+  src: url("fonts/OpenSans-Bold.eot");
+  src: local("OpenSans Bold"), local("OpenSans-Bold"), url("fonts/OpenSans-Bold.eot?#iefix") format("embedded-opentype"), url("fonts/OpenSans-Bold.woff") format("woff"), url("fonts/OpenSans-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'icomoon';
+  src: url("fonts/icomoon.eot?zgeroh");
+  src: url("fonts/icomoon.eot?zgeroh#iefix") format("embedded-opentype"), url("fonts/icomoon.ttf?zgeroh") format("truetype"), url("fonts/icomoon.woff?zgeroh") format("woff"), url("fonts/icomoon.svg?zgeroh#icomoon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: block; }
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
+@use "button";
+
+/*# sourceMappingURL=style.css.map */
