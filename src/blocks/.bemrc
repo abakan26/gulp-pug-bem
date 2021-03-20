@@ -1,0 +1,30 @@
+
+module.exports = {
+    levels: [
+        {
+            path: 'common',
+            scheme: 'nested',
+            techs: ['scss'],
+            default: true
+        },
+
+        {
+            path: 'pages',
+            scheme: 'nested',
+            techs: ['scss']
+        }
+    ],
+    modules: {
+        'bem-tools': {
+            plugins: {
+                create: {
+                    templateFolder: '.bem/templates',
+
+                    templates: {
+                        'scss-ymodules': '.bem/templates/scss'
+                    },
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,15 @@
+include ../componets/index
+doctype html
+html
+    head
+        meta(charset='UTF-8')
+        meta(name='viewport' content='width=device-width, initial-scale=1')
+        title Title
+        link( rel="shortcut icon" href="favicon.ico" type="image/x-icon")
+        link( rel="preload" href="style.css" as="style")
+        link(rel="stylesheet" href="style.css")
+    body
+        include header
+        block main
+        include footer
+        script(src="scripts.js")
