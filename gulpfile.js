@@ -19,7 +19,7 @@ function scss(cb) {
     return buildStyles(
         {
             src: [
-                "./src/blocks/common/index.scss",
+                "./src/blocks/index.scss",
             ],
             dest: './dist',
             bundleName: './style.css',
